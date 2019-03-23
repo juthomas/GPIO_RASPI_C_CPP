@@ -17,8 +17,8 @@ $ cd GPIO_RASPI_C_CPP
 ```
 
 
-2 templates file :
-with C or Cpp
+3 templates file :
+with C, Cpp, or Arduino
 
 
 ### Using C (In "GPIO_RASPI_C_CPP" folder) :
@@ -28,12 +28,20 @@ $ make
 $ ./Control_gpio
 ```
 
-### Using C (In "GPIO_RASPI_C_CPP" folder) :
+### Using Cpp (In "GPIO_RASPI_C_CPP" folder) :
 ```sh
 $ cd Cpp_use/Led
 $ make
 $ ./Control_gpio
 ```
+
+### Using Arduino syntax (In "GPIO_RASPI_C_CPP" folder) :
+```sh
+$ cd Arduino_use/Led
+$ make
+$ ./Control_gpio
+```
+
 
 ## Usefull things :
 ```
